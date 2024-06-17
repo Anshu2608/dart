@@ -1,0 +1,18 @@
+class Example {
+  String userName = '';
+
+  String get getName {
+    return userName;
+  }
+
+  set setName(String name) {
+    userName = name;
+  }
+}
+
+void main() {
+  Example user = Example();
+
+  user.setName = "Getter Setter";
+  print("Welcome to ${user.getName}");
+}
